@@ -27,7 +27,7 @@ class QrController extends Controller
             'teks.max' => 'Panjang teks maksimal 1000 karakter'
         ]);
         $qr = new DNS2D();
-        $barcode = $qr->getBarcodePNGPath($request->teks, 'QRCODE');
+        $barcode = $qr->getBarcodePNGPath($request->teks, 'QRCODE', 10, 10);
         $file = file_get_contents(public_path($barcode));
         unlink(public_path($barcode));
         $path = '/storage/' . Str::random(40) . '.png';
