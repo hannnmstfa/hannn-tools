@@ -11,5 +11,7 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/css/font.css', 'resources/js/app.js'])
+    <script async="async" data-cfasync="false"
+        src="https://pl28706939.effectivegatecpm.com/244996b92c1ce027c0a8ed639914f8a4/invoke.js"></script>
     <script src="https://pl28706920.effectivegatecpm.com/4d/7c/70/4d7c70ebf2c3297fa6c78f98f6c803af.js"></script>
 </head>
