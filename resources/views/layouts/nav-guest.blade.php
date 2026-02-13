@@ -18,8 +18,19 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14" />
             </svg>
         </button>
+        <div class="hidden w-full md:block md:w-auto mx-3">
+            <ul
+                class="font-medium flex flex-col p-4 md:p-0 md:pe-5 mt-4 border rounded md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+                <li>
+                    <a href="{{ route('/') }}" class="block py-2 px-3 rounded md:p-0">Home</a>
+                </li>
+                <li>
+                    <a href="{{ route('layanan') }}" class="block py-2 px-3 rounded md:p-0">Layanan</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="hidden w-full md:block md:w-auto mx-3" id="nav-guest-mobile">
+    <div class="hidden w-max-screen-xl mx-auto" id="nav-guest-mobile">
         <ul
             class="font-medium flex flex-col p-4 md:p-0 md:pe-5 mt-4 border rounded md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
