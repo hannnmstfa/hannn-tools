@@ -2661,6 +2661,163 @@
             "install-path": "../league/uri-interfaces"
         },
         {
+            "name": "livewire/livewire",
+            "version": "v4.1.4",
+            "version_normalized": "4.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/livewire/livewire.git",
+                "reference": "4697085e02a1f5f11410a1b5962400e3539f8843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/4697085e02a1f5f11410a1b5962400e3539f8843",
+                "reference": "4697085e02a1f5f11410a1b5962400e3539f8843",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "^10.0|^11.0|^12.0",
+                "illuminate/routing": "^10.0|^11.0|^12.0",
+                "illuminate/support": "^10.0|^11.0|^12.0",
+                "illuminate/validation": "^10.0|^11.0|^12.0",
+                "laravel/prompts": "^0.1.24|^0.2|^0.3",
+                "league/mime-type-detection": "^1.9",
+                "php": "^8.1",
+                "symfony/console": "^6.0|^7.0",
+                "symfony/http-kernel": "^6.2|^7.0"
+            },
+            "require-dev": {
+                "calebporzio/sushi": "^2.1",
+                "laravel/framework": "^10.15.0|^11.0|^12.0",
+                "mockery/mockery": "^1.3.1",
+                "orchestra/testbench": "^8.21.0|^9.0|^10.0",
+                "orchestra/testbench-dusk": "^8.24|^9.1|^10.0",
+                "phpunit/phpunit": "^10.4|^11.5",
+                "psy/psysh": "^0.11.22|^0.12"
+            },
+            "time": "2026-02-09T22:59:54+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Livewire": "Livewire\\Livewire"
+                    },
+                    "providers": [
+                        "Livewire\\LivewireServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Livewire\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Caleb Porzio",
+                    "email": "calebporzio@gmail.com"
+                }
+            ],
+            "description": "A front-end framework for Laravel.",
+            "support": {
+                "issues": "https://github.com/livewire/livewire/issues",
+                "source": "https://github.com/livewire/livewire/tree/v4.1.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/livewire",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../livewire/livewire"
+        },
+        {
+            "name": "milon/barcode",
+            "version": "v12.1.0",
+            "version_normalized": "12.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/milon/barcode.git",
+                "reference": "052e601665cfb99e119a630b6116fab0eb30183e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/milon/barcode/zipball/052e601665cfb99e119a630b6116fab0eb30183e",
+                "reference": "052e601665cfb99e119a630b6116fab0eb30183e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "illuminate/support": "^7.0|^8.0|^9.0|^10.0 | ^11.0 | ^12.0",
+                "php": "^7.3 | ^8.0"
+            },
+            "time": "2026-02-07T00:42:12+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "DNS1D": "Milon\\Barcode\\Facades\\DNS1DFacade",
+                        "DNS2D": "Milon\\Barcode\\Facades\\DNS2DFacade"
+                    },
+                    "providers": [
+                        "Milon\\Barcode\\BarcodeServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Milon\\Barcode": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nuruzzaman Milon",
+                    "email": "contact@milon.im"
+                }
+            ],
+            "description": "Barcode generator like Qr Code, PDF417, C39, C39+, C39E, C39E+, C93, S25, S25+, I25, I25+, C128, C128A, C128B, C128C, 2-Digits UPC-Based Extention, 5-Digits UPC-Based Extention, EAN 8, EAN 13, UPC-A, UPC-E, MSI (Variation of Plessey code)",
+            "keywords": [
+                "CODABAR",
+                "CODE 128",
+                "CODE 39",
+                "barcode",
+                "datamatrix",
+                "ean",
+                "laravel",
+                "pdf417",
+                "qr code",
+                "qrcode"
+            ],
+            "support": {
+                "issues": "https://github.com/milon/barcode/issues",
+                "source": "https://github.com/milon/barcode/tree/v12.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/nuruzzamanmilon",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/milon",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../milon/barcode"
+        },
+        {
             "name": "mockery/mockery",
             "version": "1.6.12",
             "version_normalized": "1.6.12.0",
@@ -5011,6 +5168,99 @@
                 "source": "https://github.com/ramsey/uuid/tree/4.9.2"
             },
             "install-path": "../ramsey/uuid"
+        },
+        {
+            "name": "realrashid/sweet-alert",
+            "version": "v7.3.0",
+            "version_normalized": "7.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/realrashid/sweet-alert.git",
+                "reference": "d54b1663970da8d416eb09e8719a8561a45fb2d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/realrashid/sweet-alert/zipball/d54b1663970da8d416eb09e8719a8561a45fb2d9",
+                "reference": "d54b1663970da8d416eb09e8719a8561a45fb2d9",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^5.6|^6.0|^7.0|^8.0|^9.0|^9.11|9.14.*|^10.0|^11.0|^12.0",
+                "php": "^7.2|^8.0|^8.1|^8.2|^8.3"
+            },
+            "require-dev": {
+                "symfony/thanks": "^1.0"
+            },
+            "time": "2025-02-25T21:11:49+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Alert": "RealRashid\\SweetAlert\\Facades\\Alert"
+                    },
+                    "providers": [
+                        "RealRashid\\SweetAlert\\SweetAlertServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "RealRashid\\SweetAlert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rashid Ali",
+                    "email": "realrashid05@gmail.com",
+                    "homepage": "https://realrashid.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Sweet Alert Is A Package For Laravel Provides An Easy Way To Display Alert Messages Using The SweetAlert2 Library.",
+            "homepage": "https://github.com/realrashid/sweet-alert",
+            "keywords": [
+                "alert",
+                "laravel",
+                "laravel-package",
+                "notifier",
+                "noty",
+                "sweet-alert",
+                "sweet-alert2",
+                "toast"
+            ],
+            "support": {
+                "docs": "https://realrashid.github.io/sweet-alert/",
+                "email": "realrashid05@gmail.com",
+                "issues": "https://github.com/realrashid/sweet-alert/issues",
+                "source": "https://github.com/realrashid/sweet-alert"
+            },
+            "funding": [
+                {
+                    "url": "https://ko-fi.com/realrashid",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.buymeacoffee.com/realrashid",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://issuehunt.io/r/realrashid",
+                    "type": "issuehunt"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/realrashid/sweet-alert",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../realrashid/sweet-alert"
         },
         {
             "name": "sebastian/cli-parser",

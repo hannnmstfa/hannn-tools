@@ -9,4 +9,7 @@ class GuestController extends Controller
     public function home(){
         return view('home');
     }
+    public function layanan(){
+        return view('layanan.index');
+    }
 }
