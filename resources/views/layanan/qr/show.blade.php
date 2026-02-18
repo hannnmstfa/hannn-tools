@@ -11,3 +11,5 @@
         </div>
     </div>
 </x-guest-layout>
+<script async="async" data-cfasync="false"
+    src="https://pl28706939.effectivegatecpm.com/244996b92c1ce027c0a8ed639914f8a4/invoke.js"></script>
