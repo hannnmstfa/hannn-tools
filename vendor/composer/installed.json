@@ -1385,6 +1385,54 @@
             "install-path": "../hamcrest/hamcrest-php"
         },
         {
+            "name": "ilovepdf/iloveimg-php",
+            "version": "v1.1.15",
+            "version_normalized": "1.1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ilovepdf/iloveimg-php.git",
+                "reference": "e825be5c31c81971b52caebd372e54846528c7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ilovepdf/iloveimg-php/zipball/e825be5c31c81971b52caebd372e54846528c7f4",
+                "reference": "e825be5c31c81971b52caebd372e54846528c7f4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.1"
+            },
+            "time": "2019-05-30T12:35:52+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Iloveimg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "iloveimg",
+                    "email": "info@iloveimg.com"
+                }
+            ],
+            "description": "iLoveIMG Php Api",
+            "homepage": "https://iloveimg.com/",
+            "support": {
+                "issues": "https://github.com/ilovepdf/iloveimg-php/issues",
+                "source": "https://github.com/ilovepdf/iloveimg-php/tree/v1.1.15"
+            },
+            "install-path": "../ilovepdf/iloveimg-php"
+        },
+        {
             "name": "laravel/breeze",
             "version": "v2.3.8",
             "version_normalized": "2.3.8.0",
@@ -3594,6 +3642,78 @@
             "install-path": "../nunomaduro/termwind"
         },
         {
+            "name": "paragonie/constant_time_encoding",
+            "version": "v3.1.3",
+            "version_normalized": "3.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/constant_time_encoding.git",
+                "reference": "d5b01a39b3415c2cd581d3bd3a3575c1ebbd8e77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/d5b01a39b3415c2cd581d3bd3a3575c1ebbd8e77",
+                "reference": "d5b01a39b3415c2cd581d3bd3a3575c1ebbd8e77",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8"
+            },
+            "require-dev": {
+                "infection/infection": "^0",
+                "nikic/php-fuzzer": "^0",
+                "phpunit/phpunit": "^9|^10|^11",
+                "vimeo/psalm": "^4|^5|^6"
+            },
+            "time": "2025-09-24T15:06:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\ConstantTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steve 'Sc00bz' Thomas",
+                    "email": "steve@tobtu.com",
+                    "homepage": "https://www.tobtu.com",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+            "keywords": [
+                "base16",
+                "base32",
+                "base32_decode",
+                "base32_encode",
+                "base64",
+                "base64_decode",
+                "base64_encode",
+                "bin2hex",
+                "encoding",
+                "hex",
+                "hex2bin",
+                "rfc4648"
+            ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/constant_time_encoding/issues",
+                "source": "https://github.com/paragonie/constant_time_encoding"
+            },
+            "install-path": "../paragonie/constant_time_encoding"
+        },
+        {
             "name": "phar-io/manifest",
             "version": "2.0.4",
             "version_normalized": "2.0.4.0",
@@ -4445,6 +4565,61 @@
             "install-path": "../phpunit/phpunit"
         },
         {
+            "name": "pragmarx/google2fa",
+            "version": "v9.0.0",
+            "version_normalized": "9.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/antonioribeiro/google2fa.git",
+                "reference": "e6bc62dd6ae83acc475f57912e27466019a1f2cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/antonioribeiro/google2fa/zipball/e6bc62dd6ae83acc475f57912e27466019a1f2cf",
+                "reference": "e6bc62dd6ae83acc475f57912e27466019a1f2cf",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/constant_time_encoding": "^1.0|^2.0|^3.0",
+                "php": "^7.1|^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^1.9",
+                "phpunit/phpunit": "^7.5.15|^8.5|^9.0"
+            },
+            "time": "2025-09-19T22:51:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "PragmaRX\\Google2FA\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Antonio Carlos Ribeiro",
+                    "email": "acr@antoniocarlosribeiro.com",
+                    "role": "Creator & Designer"
+                }
+            ],
+            "description": "A One Time Password Authentication package, compatible with Google Authenticator.",
+            "keywords": [
+                "2fa",
+                "Authentication",
+                "Two Factor Authentication",
+                "google2fa"
+            ],
+            "support": {
+                "issues": "https://github.com/antonioribeiro/google2fa/issues",
+                "source": "https://github.com/antonioribeiro/google2fa/tree/v9.0.0"
+            },
+            "install-path": "../pragmarx/google2fa"
+        },
+        {
             "name": "psr/clock",
             "version": "1.0.0",
             "version_normalized": "1.0.0.0",
@@ -4961,6 +5136,79 @@
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.19"
             },
             "install-path": "../psy/psysh"
+        },
+        {
+            "name": "rahulhaque/laravel-filepond",
+            "version": "v11.3.5",
+            "version_normalized": "11.3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rahulhaque/laravel-filepond.git",
+                "reference": "d0a70546589a964730753cf52cb83bda6c5e9fb5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rahulhaque/laravel-filepond/zipball/d0a70546589a964730753cf52cb83bda6c5e9fb5",
+                "reference": "d0a70546589a964730753cf52cb83bda6c5e9fb5",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^11.0",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "laravel/pint": "^1.25.1",
+                "league/flysystem-aws-s3-v3": "^3.29",
+                "orchestra/testbench": "^9.15",
+                "phpunit/phpunit": "^10.5.58"
+            },
+            "time": "2026-03-05T13:02:07+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "Filepond": "RahulHaque\\Filepond\\Facades\\Filepond"
+                    },
+                    "providers": [
+                        "RahulHaque\\Filepond\\FilepondServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "RahulHaque\\Filepond\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rahul Haque",
+                    "email": "rahulhaque07@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Use FilePond the Laravel way",
+            "homepage": "https://github.com/rahulhaque/laravel-filepond",
+            "keywords": [
+                "filepond",
+                "filepond-laravel",
+                "laravel-filepond"
+            ],
+            "support": {
+                "issues": "https://github.com/rahulhaque/laravel-filepond/issues",
+                "source": "https://github.com/rahulhaque/laravel-filepond/tree/v11.3.5"
+            },
+            "funding": [
+                {
+                    "url": "https://ko-fi.com/rahulhaque",
+                    "type": "ko_fi"
+                }
+            ],
+            "install-path": "../rahulhaque/laravel-filepond"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -6292,6 +6540,135 @@
                 }
             ],
             "install-path": "../sebastian/version"
+        },
+        {
+            "name": "spatie/image-optimizer",
+            "version": "1.8.1",
+            "version_normalized": "1.8.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/image-optimizer.git",
+                "reference": "2ad9ac7c19501739183359ae64ea6c15869c23d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/image-optimizer/zipball/2ad9ac7c19501739183359ae64ea6c15869c23d9",
+                "reference": "2ad9ac7c19501739183359ae64ea6c15869c23d9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-fileinfo": "*",
+                "php": "^7.3|^8.0",
+                "psr/log": "^1.0 | ^2.0 | ^3.0",
+                "symfony/process": "^4.2|^5.0|^6.0|^7.0|^8.0"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.21|^2.0|^3.0|^4.0",
+                "phpunit/phpunit": "^8.5.21|^9.4.4|^10.0|^11.0|^12.0",
+                "symfony/var-dumper": "^4.2|^5.0|^6.0|^7.0|^8.0"
+            },
+            "time": "2025-11-26T10:57:19+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\ImageOptimizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Easily optimize images using PHP",
+            "homepage": "https://github.com/spatie/image-optimizer",
+            "keywords": [
+                "image-optimizer",
+                "spatie"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/image-optimizer/issues",
+                "source": "https://github.com/spatie/image-optimizer/tree/1.8.1"
+            },
+            "install-path": "../spatie/image-optimizer"
+        },
+        {
+            "name": "spatie/laravel-image-optimizer",
+            "version": "1.8.3",
+            "version_normalized": "1.8.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-image-optimizer.git",
+                "reference": "abc476add8b41d10185a07377ce7f64657b3ed91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-image-optimizer/zipball/abc476add8b41d10185a07377ce7f64657b3ed91",
+                "reference": "abc476add8b41d10185a07377ce7f64657b3ed91",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^8.0|^9.0|^10.0|^11.0|^12.0|^13.0",
+                "php": "^8.0",
+                "spatie/image-optimizer": "^1.2.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.23|^7.0|^8.0|^9.0|^10.0|^11.0",
+                "phpunit/phpunit": "^9.4|^10.5|^11.5.3|^12.5.12"
+            },
+            "time": "2026-02-21T21:35:45+00:00",
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "ImageOptimizer": "Spatie\\LaravelImageOptimizer\\Facades\\ImageOptimizer"
+                    },
+                    "providers": [
+                        "Spatie\\LaravelImageOptimizer\\ImageOptimizerServiceProvider"
+                    ]
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\LaravelImageOptimizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Optimize images in your Laravel app",
+            "homepage": "https://github.com/spatie/laravel-image-optimizer",
+            "keywords": [
+                "laravel-image-optimizer",
+                "spatie"
+            ],
+            "support": {
+                "source": "https://github.com/spatie/laravel-image-optimizer/tree/1.8.3"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                }
+            ],
+            "install-path": "../spatie/laravel-image-optimizer"
         },
         {
             "name": "staabm/side-effects-detector",

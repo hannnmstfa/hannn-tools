@@ -1,5 +1,4 @@
-<x-guest-layout title="QR Generator">
-    <h1 class="text-4xl text-center font-bold">QR<span class="text-lime-600 dark:text-lime-400"> Generator</span></h1>
+<x-layanan-layout title="QR Generator">
     <div class="max-w-screen-sm mx-auto mt-5">
         <form action="{{ route('qr.store') }}" method="post" class="w-full">
             @csrf
@@ -7,7 +6,7 @@
                 Nama QR
             </label>
             <input type="text" id="nama" name="nama"
-                class="w-full px-4 py-3 bg-white dark:bg-gray-700 border text-sm border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-lime-500 dark:focus:ring-lime-400 focus:border-lime-500 dark:focus:border-lime-400 outline-none transition-colors text-gray-900 dark:text-white"
+                class="w-full px-4 py-3 bg-white dark:bg-gray-900 border text-sm border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-lime-500 dark:focus:ring-lime-400 focus:border-lime-500 dark:focus:border-lime-400 outline-none transition-colors text-gray-900 dark:text-white"
                 placeholder="Masukkan nama QR yang ingin di generate..."
                 required>
             <x-input-error :messages="$errors->get('nama')" />
@@ -15,7 +14,7 @@
                 Teks / Link URL
             </label>
             <textarea id="teks" rows="5" name="teks"
-                class="w-full px-4 py-3 bg-white dark:bg-gray-700 border text-sm border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-lime-500 dark:focus:ring-lime-400 focus:border-lime-500 dark:focus:border-lime-400 outline-none transition-colors text-gray-900 dark:text-white"
+                class="w-full px-4 py-3 bg-white dark:bg-gray-900 border text-sm border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-lime-500 dark:focus:ring-lime-400 focus:border-lime-500 dark:focus:border-lime-400 outline-none transition-colors text-gray-900 dark:text-white"
                 placeholder="Masukkan teks atau link url yang ingin di generate... (maks 1000 karakter)"
                 required>{{ old('teks') }}</textarea>
             <x-input-error :messages="$errors->get('teks')" />
@@ -35,4 +34,4 @@
             </div>
         </form>
     </div>
-</x-guest-layout>
+</x-layanan-layout>

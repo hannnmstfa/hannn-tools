@@ -1,6 +1,5 @@
-<x-guest-layout title="QR Code {{ $qr->nama_qr }}">
-    <h1 class="text-4xl text-center font-bold">QR Code <span class="text-lime-600 dark:text-lime-400">Berhasil
-            dibuat</span></h1>
+<x-layanan-layout title="QR Code {{ $qr->nama_qr }}">
+    <h1 class="text-4xl text-center font-bold">Berhasil dibuat</h1>
     <div class="max-w-screen-sm mx-auto mt-5">
         <div class="flex justify-center items-center">
             <a href="{{ asset($qr->path_qr) }}" download="hanstd-tools-{{ Str::slug($qr->nama_qr) }}"
@@ -10,6 +9,5 @@
             </a>
         </div>
     </div>
-</x-guest-layout>
-<script async="async" data-cfasync="false"
-    src="https://pl28706939.effectivegatecpm.com/244996b92c1ce027c0a8ed639914f8a4/invoke.js"></script>
+</x-layanan-layout>
+<script src="https://pl29589874.effectivecpmnetwork.com/02/fc/87/02fc87b8401efe93647218a4976b9be2.js"></script>

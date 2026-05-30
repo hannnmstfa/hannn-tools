@@ -7,12 +7,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "ilovepdf/iloveimg-php": "^1.1",
         "laravel/breeze": "^2.3",
         "laravel/framework": "^11.31",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^4.1",
         "milon/barcode": "^12.1",
-        "realrashid/sweet-alert": "^7.3"
+        "pragmarx/google2fa": "^9.0",
+        "rahulhaque/laravel-filepond": "^11.3",
+        "realrashid/sweet-alert": "^7.3",
+        "spatie/laravel-image-optimizer": "^1.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

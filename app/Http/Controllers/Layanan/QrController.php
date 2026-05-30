@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Layanan;
 use App\Http\Controllers\Controller;
 use App\Models\QrGenerator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Milon\Barcode\DNS1D;
 use Milon\Barcode\DNS2D;
@@ -30,15 +31,16 @@ class QrController extends Controller
         $barcode = $qr->getBarcodePNGPath($request->teks, 'QRCODE', 10, 10);
         $file = file_get_contents(public_path($barcode));
         unlink(public_path($barcode));
-        $path = '/storage/' . Str::random(40) . '.png';
-        file_put_contents(public_path($path), $file);
+        Storage::disk('public')->makeDirectory('/qr-generator/');
         $token = Str::random(20);
+        $path = '/storage/qr-generator/' . $token . '.png';
+        file_put_contents(public_path($path) , $file);
         QrGenerator::create([
             'token' => $token,
             'nama_qr' => $request->nama,
             'path_qr' => $path,
         ]);
-        toast()->success('QR Code berhasil dibuat!')->width('max-content');
+        toast()->success('QR Code berhasil dibuat!')->width('max-content')->position('bottom-end');
         return to_route('qr.show', $token);
     }
     public function show($token)

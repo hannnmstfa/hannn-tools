@@ -1,6 +1,6 @@
-<footer class="shadow border-t fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+<footer class="shadow border-t fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-gray-100 z-50">
     <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-body sm:text-center">© 2025 <a href="#"
+        <span class="text-sm text-body sm:text-center">© {{ now()->isoFormat('Y') }} <a href="https://hanstd.com/"
                 class="hover:underline">Han Project</a>. All Rights Reserved.
         </span>
         <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-body sm:mt-0">

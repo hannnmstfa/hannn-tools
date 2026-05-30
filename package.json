@@ -18,6 +18,8 @@
     },
     "dependencies": {
         "@fontsource/poppins": "^5.2.7",
+        "filepond": "^4.32.12",
+        "filepond-plugin-image-preview": "^4.6.12",
         "flowbite": "^2.5.2"
     }
 }

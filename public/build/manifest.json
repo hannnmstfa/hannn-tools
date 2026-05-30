@@ -32,7 +32,7 @@
     "src": "node_modules/@fontsource/poppins/files/poppins-latin-700-normal.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-BrsUYMoc.css",
+    "file": "assets/app-C9EchSgI.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -42,9 +42,12 @@
     "isEntry": true
   },
   "resources/js/app.js": {
-    "file": "assets/app-Nf1Wd-0s.js",
+    "file": "assets/app-BalSsy_a.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/app-D-3TbQxL.css"
+    ]
   }
 }
