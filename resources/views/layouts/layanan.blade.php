@@ -8,7 +8,7 @@
         <div class="max-w-screen-xl mx-auto pt-32 md:pt-28">
             <h1 class="text-4xl text-center font-bold">{{ explode(' ', $title)[0] }}<span class="text-lime-600 dark:text-lime-400">
                     {{ explode(' ', $title)[1] }}</span></h1>
-            <div class="grid grid-cols-8 justify-between gap-2">
+            <div class="grid grid-cols-8 justify-between gap-2 overflow-hidden">
                 <div class="col-span-1 w-full">
                     <p class="text-xs text-gray-400">Advertising:</p>
                     <div id="container-52c759bac8874ebe84f06095d3990a1c" class="bg-gray-400 dark:bg-gray-700 border rounded border-gray-300 dark:border-gray-600"></div>

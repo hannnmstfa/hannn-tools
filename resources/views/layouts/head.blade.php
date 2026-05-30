@@ -27,5 +27,6 @@
     </script>
     <script async="async" data-cfasync="false"
         src="https://pl29589485.effectivecpmnetwork.com/52c759bac8874ebe84f06095d3990a1c/invoke.js"></script>
+        <meta name="pushsdk" content="4454732a8b7553f99ef53844af4a872b">
     @livewireScriptConfig
 </head>

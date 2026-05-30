@@ -83,8 +83,8 @@
             successMessage.classList.add('hidden');
             copyBtn.classList.remove('border-lime-700', 'text-lime-700');
         }
+        let adsLoaded = false;
     });
-    let adsLoaded = false;
 
     document.addEventListener('livewire:init', () => {
         Livewire.on('otp-generated', () => {
