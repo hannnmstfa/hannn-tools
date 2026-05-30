@@ -18,18 +18,16 @@ class TwoFaController extends Component
         $this->validate([
             'secret' => 'required|min:8',
         ], [
-            'secret.min' => 'Karakter terlalu pendek'
+            'secret.min' => 'Secret key tidak valid.'
         ]);
 
         try {
             $secret = strtoupper(
                 str_replace(' ', '', trim($this->secret))
             );
-
             $google2fa = app(Google2FA::class);
-
             $this->otp = $google2fa->getCurrentOtp($secret);
-
+            $this->dispatch('otp-generated');
         } catch (\Throwable $e) {
             $this->addError(
                 'secret',
